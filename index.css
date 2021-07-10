@@ -1,6 +1,6 @@
-*{
+/* *{
    font-size: small;
-}
+} */
 #header{width: 100%;
   background-image: url("download.jpeg");
   background-size: cover;
@@ -33,10 +33,11 @@ a{
   height: 250px;
   justify-content: space-around;
   font-size: small;
+
 }
 .About{
           float: left;
-          background-color: white;
+          /* background-color:white; */
           border:2px solid darkorange;
           width: 300px;
           height: 390px;
@@ -52,15 +53,41 @@ a{
 button{
         background-color: darkorange;
 }
-/* #work{justify-content: space-around;
-      margin-top: 140px;
+#work_two{justify-content: space-between;
+      margin-left: 200px;
+      margin-right: 200px;
       display: flex;
       flex-direction: row;
-      flex: 33.3%;
+      flex: 50%;
+}
+#work h2{
+         color: darkorange;
+}
+#work{
+      margin-top: 180px;
+}
+#work p:first-child{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 #work h2{
          text-align: center;
          margin-left: auto;
          margin-right: auto;
          justify-content: center;
-} */
+}
+.anitas{
+        width: 40%;
+      
+}
+.anitas p{
+           font-size: small;
+}
+.band{
+      width: 40%;
+}
+.band p{
+        font-size: small;
+}
