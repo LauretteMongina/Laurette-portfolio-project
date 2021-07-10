@@ -1,8 +1,12 @@
-/* .header{
-  background-image: url("./download.jpeg");
+*{
+   font-size: small;
+}
+#header{width: 100%;
+  background-image: url("download.jpeg");
   background-size: cover;
+  height: 100px;
   background-repeat: no-repeat;
-} */
+} 
 ul{
   list-style: none;
   margin: 0;
@@ -13,25 +17,50 @@ a{
   text-decoration: none;
 
 }
-nav ul{
+.nav ul{
     display: flex;
     justify-content: space-between;
     height: 70px;
     float: right;
 }
-nav ul li{padding: 10px;}
-nav ul li a{
+.nav ul li{padding: 10px;}
+.nav ul li a{
              color: darkorange;
 }
-/* section{
-        width: 100%;
-        height: 25%vh;
-        background-image: url("./download.jpeg");
-        background-size: cover;
-        background-repeat: no-repeat;
+#Section{display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 250px;
+  justify-content: space-around;
+  font-size: small;
 }
-.main{
-      background-image: url(./download.jpeg);
-      background-size: cover;
-      background-repeat: no-repeat;
+.About{
+          float: left;
+          background-color: white;
+          border:2px solid darkorange;
+          width: 300px;
+          height: 390px;
+          box-sizing: border-box;
+          padding: 10px;
+          margin-left: 100px;
+}
+ .About_two{
+           width:400px}
+.About_two h2{
+              color: darkorange;
+}
+button{
+        background-color: darkorange;
+}
+/* #work{justify-content: space-around;
+      margin-top: 140px;
+      display: flex;
+      flex-direction: row;
+      flex: 33.3%;
+}
+#work h2{
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+         justify-content: center;
 } */
