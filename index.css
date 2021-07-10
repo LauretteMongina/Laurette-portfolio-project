@@ -1,10 +1,12 @@
 /* *{
-   font-size: small;
+  background-color: black;
 } */
 #header{width: 100%;
-  background-image: url("download.jpeg");
+  /* background-image: url("download.jpeg"); */
+  background-color: black;
   background-size: cover;
-  height: 100px;
+  opacity: 0.9;
+  height: 150px;
   background-repeat: no-repeat;
 } 
 ul{
@@ -18,7 +20,7 @@ a{
 
 }
 .nav ul{
-    display: flex;
+    display: block;
     justify-content: space-between;
     height: 70px;
     float: right;
@@ -27,7 +29,8 @@ a{
 .nav ul li a{
              color: darkorange;
 }
-#Section{display: flex;
+#Section{
+  display: flex;
   flex-direction: row;
   margin-top: 50px;
   height: 250px;
@@ -90,4 +93,15 @@ button{
 }
 .band p{
         font-size: small;
+}
+#contact{display: block;
+         background-color: black;
+         opacity: 0.9;
+         margin-top: 40px;
+         color: darkorange;
+}
+.gmail{
+       display: flex;
+       flex-direction: row;
+
 }
