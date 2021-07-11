@@ -7,9 +7,11 @@ The Work Section is about the work I have done previously, the languages I used 
 <img src="image_two.png" alt="Getting Started">
 <img src="image.png" alt="Getting Started">
 ##Requirements
-A code editor(vscode) 
-A github account
-Internet.
+<ul>
+<li>A code editor(vscode)</li>
+<li>A github account</li>
+<li>Internet.</li>
+</ul>
 ## Setup/Installation
 <ul>
 <li>Clone this repository to your machine</li>
