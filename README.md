@@ -4,8 +4,8 @@
 ## My Portfolio
 My portfolio project is about my portfolio. It has an about section that basically describes who I am, what I do, what I enjoy doing and my education background. It also states some of my relevant skills.
 The Work Section is about the work I have done previously, the languages I used and what the work was all about. It also includes some of the languages I used.
-<img src="image.png" alt="Getting Started">
 <img src="image_two.png" alt="Getting Started">
+<img src="image.png" alt="Getting Started">
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
