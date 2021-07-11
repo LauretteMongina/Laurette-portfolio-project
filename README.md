@@ -6,18 +6,21 @@ My portfolio project is about my portfolio. It has an about section that basical
 The Work Section is about the work I have done previously, the languages I used and what the work was all about. It also includes some of the languages I used.
 <img src="image_two.png" alt="Getting Started">
 <img src="image.png" alt="Getting Started">
+
 ## Requirements
 <ul>
 <li>A code editor(vscode)</li>
 <li>A github account</li>
 <li>Internet.</li>
 </ul>
+
 ## Setup/Installation
 <ul>
 <li>Clone this repository to your machine</li>
 <li>Navigate to the top level of your directory.</li>
 <li>Open the index.html in your browser</li>
 </ul>
+
 ## Known Bugs
 My website is not fully responsive, working towards correcting that using bootstrap.
 ## Technologies Used
